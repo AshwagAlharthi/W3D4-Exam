@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(230, 236, 239);
+}
+
+.navbar-container{
+    background-color: rgb(151, 206, 234);
+}
+
+.nav-image{
+    width: 5vw;
+    height: 4vh;
+}
+
+.content-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.prayer, .weather{
+    width: 30vw;
+    height: 60vh;
+    background-color: rgb(195, 197, 179);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.prayer img, .weather img{
+    width: 30vw;
+    height: 45vh;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 15vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-image{
+        width: 6vw;
+        height: 5vh;
+    }
+    
+    .content-container{
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .prayer, .weather{
+        width: 90vw;
+        height: 60vh;
+        background-color: rgb(195, 197, 179);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .prayer img, .weather img{
+        width: 90vw;
+        height: 45vh;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 15vh;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px){
+    .nav-image{
+        width: 6vw;
+        height: 5vh;
+    }
+    
+    .content-container{
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .prayer, .weather{
+        width: 40vw;
+        height: 60vh;
+        background-color: rgb(195, 197, 179);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .prayer img, .weather img{
+        width: 40vw;
+        height: 45vh;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+        height: 15vh;
+    }
+    
+}
