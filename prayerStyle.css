@@ -53,3 +53,42 @@ body{
     height: 6vh;
     border: none;
 }
+
+@media only screen and (max-width: 600px){
+    
+    .pray-contanier{
+        width: 60vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(179, 211, 226);
+    
+    }
+
+    .pray-button{
+        width: 30vw;
+        height: 6vh;
+        border: none;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px){
+    .pray-contanier{
+        width: 60vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(179, 211, 226);
+    
+    }
+
+    .pray-button{
+        width: 30vw;
+        height: 6vh;
+        border: none;
+    }
+}
